@@ -2,12 +2,13 @@
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
+	color: black;
 }
 
 body {
 	margin: 0;
 	padding: 0;
-	background-color: rgb(238, 205, 248);
+	background-color: rgb(175, 241, 136);
 }
 
 .superior {
@@ -26,18 +27,21 @@ header {
 
 .container {
 	display: inline-block;
-	height: 140px;
+	height: 100px;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	z-index: 1;
+	background-color: rgb(217, 141, 236);
 }
 
 h1 {
 	display: inline-block;
 	text-align: left;
-	padding: 5px;
-	margin-left: 20px;
+	padding: 0px;
+	margin-left: 90px;
+	margin-top: 30px;
+	background-color: transparent;
 }
 
 .menu {
@@ -48,21 +52,124 @@ h1 {
 span {
 	position: relative;
 	left: 500px;
-	top: -20px;
+	top: 25px;
 	bottom: 70px;
 	padding: 10px;
 }
 
-h3 {
+h2 {
 	padding: 10px;
 }
 
-span h3:hover {
+span h2:hover {
 	background-color: rgb(239, 104, 252);
-	text-shadow: #fa1b1b;
 	border-radius: 50px;
 }
 
 a {
 	text-decoration: none;
+}
+
+section {
+	margin-top: 120px;
+	margin-bottom: 50px;
+	padding-left: 90;
+}
+
+section p {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 40px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.atencion {
+	font-size: 30px;
+	font-style: italic;
+	color: #fa1b1b;
+	font-weight: bold;
+	padding-left: 300px;
+	margin-top: 0px;
+}
+
+.Servicios strong {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.Cuerpo span {
+	display: inline-block;
+	left: 30px;
+	margin-top: 20px;
+	padding-left: 40px;
+	height: 200px;
+	width: 200px;
+}
+
+span.Cuerpo {
+	margin-top: 20px;
+	margin-left: 140px;
+}
+
+.Cuerpo img {
+	object-fit: cover;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	z-index: 0;
+	margin-top: 10px;
+}
+
+.Cuerpo p {
+	font-size: 20px;
+	text-align: center;
+	margin-left: -40px;
+	padding-top: 20px;
+	margin-bottom: -20px;
+}
+.pieDePagina {
+	margin-top: 70px;
+	padding-top: -40px;
+	padding-bottom: 10px;
+	width: 100%;
+	background: rgba(217, 141, 236);
+}
+.pieDePagina ul {
+	display: inline-block;
+	padding: 15px;
+	margin-left: 90px;
+	list-style: none;
+}
+
+.pieDePagina li {
+	display: inline-block;
+	padding: 15px;
+}
+.pieDePagina img {
+	display: inline;
+	margin-top: 5px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50px;
+	object-fit: cover;
+}
+.pieDePagina > h5 {
+	display: inline-block;
+	color: rgb(250, 11, 83);
+	margin-left: 40px;
+	font-size: 15px;
+	position: relative;
+}
+
+.pieDePagina > p {
+	display: inline;
+	color: white;
+	margin-right: 75px;
+	font-size: 20px;
+	position: relative;
+	padding: 5px;
 }
